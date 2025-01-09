@@ -21,10 +21,6 @@ class Book:  # TODO написать класс Book
         :param name: название книги
         :param pages: количество страниц в книге
         """
-        self.id = None
-        self.name = None
-        self.pages: None
-
         self.check_data(id_, name, pages)
 
         self.id = id_
